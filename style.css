@@ -50,9 +50,14 @@ body{
     padding-left: 15rem ;
 }
 main{
+    max-width: fit-content;
+}
+.container{
+
     padding: 10px;
     background-color: white;
     margin-top: 20px;
+    border-radius: 10px;
 }
 .grafics{
     display: flex;
