@@ -66,7 +66,6 @@ main{
     background-color: var(--Soft-red);
     height: 2.5rem;
     width: 2.5rem;
-    margin-right: 1rem;
     border-radius: 5px;
 }
 
@@ -74,36 +73,36 @@ main{
     background-color: var(--Soft-red);
     height: 5rem;
     width: 2.5rem;
-    margin-right: 1rem;
     border-radius: 5px;
 }
 
 .wed{
-    background-color: var(--Soft-red);
+    background-color: var(--Cyan);
     height: 7.5rem;
     width: 2.5rem;
-    margin-right: 1rem;
+    
     border-radius: 5px;
 }
 .thu{
     background-color: var(--Soft-red);
     height: 4rem;
     width: 2.5rem;
-    margin-right: 1rem;
+    
     border-radius: 5px;
+}
+.thu:hover{
+
 }
 .fri{
     background-color: var(--Soft-red);
     height: 2.7rem;
     width: 2.5rem;
-    margin-right: 1rem;
     border-radius: 5px;
 }
 .sat{
     background-color: var(--Soft-red);
     height: 7rem;
     width: 2.5rem;
-    margin-right: 1rem;
     border-radius: 5px;
 }
 .sun{
@@ -113,17 +112,44 @@ main{
     border-radius: 5px;
     
 }
-.days{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     
-    
-}
 .item{
+    min-width: 3.6rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px 0 30px 0;
 }
-
+.item p{
+    font-size: 10pt;
+}
+.item-value{
+    
+    color: white;
+    border-radius: 5px;
+    min-width: 50px;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.item-value:hover{
+    background-color: var(--Dark-brown);
+    
+}
+.line{
+    
+    border-top: 0.5px solid var(--Medium-brown);
+    margin: 0 25px;
+}
+.aside{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Medium-brown{
+    color: var(--Medium-brown);
+}
+.percentual{
+    text-align: right;
+}
