@@ -1,0 +1,129 @@
+*{
+    margin: 0; padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    /*### Primary*/
+
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+
+    /*### Neutral*/
+
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body{
+    background-color: var(--Cream);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.balance{
+    background-color: var(--Soft-red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+.balance p{
+    font-size: 0.7rem;
+}
+.my-balance .value{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.balance img{
+    height: 2rem;
+    padding-left: 15rem ;
+}
+main{
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+.grafics{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.mon{
+    background-color: var(--Soft-red);
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.tue{
+    background-color: var(--Soft-red);
+    height: 5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.wed{
+    background-color: var(--Soft-red);
+    height: 7.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.thu{
+    background-color: var(--Soft-red);
+    height: 4rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.fri{
+    background-color: var(--Soft-red);
+    height: 2.7rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.sat{
+    background-color: var(--Soft-red);
+    height: 7rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.sun{
+    background-color: var(--Soft-red);
+    height: 3rem;
+    width: 2.5rem;
+    border-radius: 5px;
+    
+}
+.days{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

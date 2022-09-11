@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -9,32 +9,65 @@
   <title>Frontend Mentor | Expenses chart component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  My balance
-  $921.48
+  <section class="balance">
+    <div class="my-balance">
+      <p>My balance</p>
+      <p class="value">$921.48</p>
+    </div>
+    <img src="images/logo.svg" alt="">
+  </section>
 
-  Spending - Last 7 days
+  <main>
+    <div class="container">
+      <h3>Spending - Last 7 days</h3>
+      <div class="grafics">
+        <div class="item">
+          <div class="mon"></div>
+          <p>mon</p>
+        </div>
+        <div class="ite">
+          <div class="tue"></div>
+          <p>tue</p>
+        </div>
+        <div class="item">
+          <div class="wed"></div>
+          <p>wed</p>
+        </div>
+        <div class="item">
+          <div class="thu"></div>
+          <p>thu</p>
+        </div>
+        <div class="item">
+          <div class="fri"></div>
+          <p>fri</p>
+        </div>
+        <item>
+          <div class="sat"></div>
+          <p>sat</p>
+        </item>
+        <item>
+          <div class="sun"></div>
+          <p>sun</p>
+        </item>
+      </div>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+      <div class="days">
+     </div>
+    </div>
+    <div class="value">
+      Total this month
+      $478.33
+    </div>
+    <div class="percentual">
+      +2.4%
+      from last month
+    </div>
 
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
