@@ -17,12 +17,7 @@
 --Cream: hsl(27, 66%, 92%);
 --Very-pale-orange: hsl(33, 100%, 98%);
 }
-.info{
-    margin: 1rem 0 0 1rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--Dark-brown)
-}
+
 body{
     font-family: 'DM Sans', sans-serif;
     background-color: var(--Cream);
@@ -37,6 +32,13 @@ body{
 main{
     max-width: 450px;
     margin-bottom: 5rem;
+    margin: auto;
+}
+.info{
+    margin: 1rem 0 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Dark-brown)
 }
 .balance{
     background-color: var(--Soft-red);
