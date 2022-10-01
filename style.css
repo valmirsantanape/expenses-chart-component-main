@@ -55,11 +55,12 @@ main{
     margin-bottom: 20px;
 }
 .balance p{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 .my-balance .value{
-    font-size: 1.5rem;
-    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 5px;
 }
 .balance img{
     height: 2rem;
